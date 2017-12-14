@@ -1,11 +1,12 @@
 # rt-ip
 
 [![Build Status](https://travis-ci.org/raverat/rt-ip.svg?branch=master)](https://travis-ci.org/raverat/rt-ip)
+[![codecov](https://codecov.io/gh/raverat/rt-ip/branch/master/graph/badge.svg)](https://codecov.io/gh/raverat/rt-ip)
 
 # Requirements
 
 * Python (2.7)
-* Django (1.8)
+* Django (1.8, 1.9, 1.10, 1.11)
 
 # Installation
 
