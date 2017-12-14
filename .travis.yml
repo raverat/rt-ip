@@ -15,7 +15,11 @@ matrix:
       env: TOXENV=py27-dj111
 
 install:
-  - pip install tox
+  - pip install tox tox-travis
+
+after_success:
+  - pip install codecov
+  - codecov -e TOXENV,DJANGO
 
 script:
   - tox
